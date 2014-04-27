@@ -125,7 +125,7 @@
     (,ceylon-package-keywords-regexp . font-lock-keyword-face)
     (,ceylon-unused-keywords-regexp . font-lock-warning-face)))
 
-(define-derived-mode ceylon-mode fundamental-mode
+(define-derived-mode ceylon-mode java-mode
   "Ceylon mode"
   "Major mode for editing Ceylon files."
   (setq font-lock-defaults '((ceylon-font-lock-keywords)))
